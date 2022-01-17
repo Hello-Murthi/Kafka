@@ -1,9 +1,11 @@
 
+-------------------------------------------------------------------------
+
 What is Kafka?
 
-Apache Kafka is a distributed publish-subscribe messaging system and a robust queue that can handle a high volume of data and enables you to pass messages from one end-point to another
+* Apache Kafka is a distributed publish-subscribe messaging system and a robust queue that can handle a high volume of data and enables you to pass messages from one end-point to another
 
-----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 Architecture:
 
@@ -45,12 +47,11 @@ Architecture:
 
 	Replicas are nothing but backups of a partition. Replicas are never read or write data. They are used to prevent data loss.
 
+-------------------------------------------------------------------------
 
-
-
-
-Kafka broker has multiple server, one is leader, others are followers
-Here, Each nodes have Partitions and Replicas
-
+* Kafka broker has multiple server, one is leader, others are followers
+* Here, Each nodes have Partitions and Replicas
 
 So when producer sends message -> Topics -> Kafka Brokers (Partions|Replicas) -> Consumers
+
+-------------------------------------------------------------------------
